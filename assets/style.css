@@ -201,7 +201,7 @@ button:hover {
  
 .card {
     height: 100%;
-    width: 300px;
+    width: 250px;
     padding: auto;
     background: var(--bg-color);
     border : 1px solid var(--main-color);
@@ -213,12 +213,25 @@ button:hover {
     position: space-between;
 }
 
+.card:hover {
+    transition: all 0.3s ease;
+    scale: 105%;
+    cursor: pointer;
+}
+
 .card i {
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
     color: var(--main-color);
+}
+
+.box img {
+    max-height: 300px;
+    min-height: auto;
+    height: 300px;
+    padding-top: 3px;
 }
 
 h5 {
