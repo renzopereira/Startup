@@ -69,24 +69,6 @@ header {
     color: var(--main-color);
 }
 
-.main {
-    display: flex;
-    align-items: center;
-}
-
-.main a {
-    margin-right: 25px;
-    margin-left: 10px;
-    color: var(--text-color);
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all 0.5s ease;
-}
-
-.main a:hover {
-    color: var(--main-color);
-}
-
 .user {
     display: flex;
     align-items: center;
@@ -96,7 +78,12 @@ header {
     color: var(--main-color);
     font-size: 28px;
     margin-right: 7px;
-}    
+}  
+
+.main {
+    display: flex;
+    align-items: center;
+} 
 
 span {
     color: var(--main-color);
@@ -112,50 +99,6 @@ span.material-symbols-outlined {
     cursor: pointer;
     z-index: 10001;
     display: none;
-}
-
-.about {
-    width: 100%;
-    height: 100%;
-    padding: 100px 0px;
-    background: var(--bg-color);
-}
-
-.about-text {
-    width: 550px;
-}
-
-.about-main {
-    width: 100vw;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.about-text h2 {
-    width: 100%;
-    color: var(--text-color);
-    font-size: 55px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-.about-text h5 {
-    color: var(--text-color);
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-
-.about-text p {
-    color: var(--text-color);
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;    
 }
 
 button {
@@ -176,12 +119,6 @@ button:hover {
     scale: 115%;
 }
 
-.service {
-    background: var(--bg-color);
-    width: 100%;
-    padding: 100px 0px;
-}
-
 .title h2 {
     color: var(--text-color);
     font-size: 75px;
@@ -190,16 +127,30 @@ button:hover {
     text-align: center;
 }
 
+.container {
+    background: rgba(174, 161, 161, 0.412);
+}
+
+.container h5 {
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.categoria {
+    display: flex;
+}
+
 .box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     min-height: 400px;
 }      
  
 .card {
-    height: 410px;
+    height: 100%;
     width: 250px;
     padding: auto;
     background: var(--bg-color);
@@ -213,12 +164,6 @@ button:hover {
     position: space-between;
 }
 
-.card:hover {
-    transition: all 0.3s ease;
-    scale: 105%;
-    cursor: pointer;
-}
-
 .card i {
     font-size: 50px;
     display: block;
@@ -227,25 +172,10 @@ button:hover {
     color: var(--main-color);
 }
 
-.box img {
-    max-height: 280px;
-    min-height: auto;
-    height: 300px;
-    padding-top: 3px;
-}
-
 h5 {
     color: var(--text-color);
     font-size: 23px;
     margin-bottom: 15px;
-}  
-
-.pra p {
-    color: #fcfc;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px; 
-    text-align: left;   
 }
 
 .contact-me {
