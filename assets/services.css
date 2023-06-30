@@ -181,7 +181,7 @@ hr {
 .categoria {
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
+    height: 100%;
     position: relative;
     justify-content: space-between;
     align-items: center;
@@ -189,8 +189,9 @@ hr {
 
 .lista {
     background: white;
-    font-size: 15px;
+    font-size: 18px;
     height: 150px;
+    cursor: pointer;
 }
 
 .box {
@@ -201,7 +202,7 @@ hr {
 }      
  
 .card {
-    height: 95%;
+    height: 250px;
     width: 250px;
     padding: auto;
     font-size: 12px;
