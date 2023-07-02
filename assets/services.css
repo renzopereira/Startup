@@ -190,6 +190,7 @@ hr {
 .lista {
     background: white;
     font-size: 18px;
+    color: rgba(0, 0, 0, 0.645);
     height: 150px;
     cursor: pointer;
 }
