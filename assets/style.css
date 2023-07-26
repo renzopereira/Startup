@@ -155,24 +155,34 @@ span.material-symbols-outlined {
 }
 
 .about-text {
+    height: auto;
     width: 550px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    border: solid var(--main-color) 3px;
+    border-radius: 20px;
+    box-shadow: var(--main-color) 0px 8px 12px;
+    text-align: left;
 }
 
 .about-main {
     width: 100vw;
-    max-width: 95%;
+    max-width: 85%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: left;  
+      
 }
 
 .about-text h2 {
     width: 100%;
+    margin:  auto 30px;
     color: var(--text-color);
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .about-text h5 {
