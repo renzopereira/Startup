@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'archivo', sans-serif; 
     text-decoration: none;
     list-style: none;
 }
 
 :root {
-    --bg-color: #211CAA;
-    --text-color: #c0b3d1;
-    --main-color: #BD2ABF;
+    --bg-color: #ffffff;
+    --text-color: #3b117b;
+    --main-color: #7545b6;
     --text2-color: rgba(0, 0, 0, 0.739);    
 }
 
