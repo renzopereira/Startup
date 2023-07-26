@@ -244,8 +244,6 @@ button:hover {
     position: relative;
     overflow: hidden;
     text-align: center;
-    position: space-between;
-
 }
 
 .card:hover {
@@ -262,28 +260,7 @@ button:hover {
     border-radius: 50%;    
 }
 
-.box2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-} 
 
-.card2 {
-    height: 410px;
-    width: 250px;
-    padding: auto;
-    background: var(--main-color);
-    border : 1px solid var(--main-color);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
-    margin: auto;
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
 
 h5 {
     color: var(--text-color);
