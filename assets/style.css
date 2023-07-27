@@ -162,7 +162,7 @@ span.material-symbols-outlined {
 
 .about-text {
     height: auto;
-    width: 550px;
+    max-width: 550px;
     margin: auto;
     padding: 30px;
     display: flex;
@@ -275,8 +275,6 @@ button:hover {
     padding-top: 3px;
     border-radius: 50%;    
 }
-
-
 
 h5 {
     color: var(--text-color);
@@ -406,43 +404,14 @@ footer p:nth-child(2) {
 }
 
 @media (max-width: 863px) {
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 12%;
-        right: -100%;
-        width: 270px;
-        height: 150px;
-        background: var(--main-color);
+    header {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all 0.5s ease;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .navbar a {
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all 0.5s ease;
-    }
-
-    .navbar a:hover {
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-
-    .navbar a.active {
-        color: var(--text-color);
-    }
-
-    .navbar.open {
-        right: 2%;
-        height: 150px;
+        margin-top: 40px;
     }
 }
 
@@ -462,8 +431,22 @@ footer p:nth-child(2) {
 }
 
 @media (max-width: 525px) {
-    
-}
+
+    .boasvindas h1 {
+        font-size: 60px;
+    }
+
+    .boasvindas h5 {
+        font-size: 60px;
+    }
+
+    .title h2 {
+        font-size: 50px;
+    }
+
+    .about {
+        width: 60%;
+    }
 
 @media (max-width: 483px) {
     .logo img {
