@@ -79,6 +79,17 @@ header {
     border-radius: 20px;
 }
 
+.banner {
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}   
+
+.banner img {
+    width: 550px;
+    align-items: center;
+} 
+
 .main {
     display: flex;
     align-items: center;
@@ -113,11 +124,6 @@ header {
     max-height: 150px; 
     margin-top: 3px;
     font-size: 72px;
-}
-
-.banner img {   
-    width: 100vw;
-    max-height: 600px;
 }
 
 .user {
@@ -399,7 +405,7 @@ footer p:nth-child(2) {
     }
 }
 
-@media (max-width: 981px) {
+@media (max-width: 863px) {
     #menu-icon {
         display: block;
     }
@@ -448,6 +454,15 @@ footer p:nth-child(2) {
     .title h2 {
         width: 400px
     }
+
+    .banner img {
+        width: 50%;
+        margin: 50px 40px;
+    }
+}
+
+@media (max-width: 525px) {
+    
 }
 
 @media (max-width: 483px) {
