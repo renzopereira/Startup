@@ -156,7 +156,8 @@ hr {
     background: rgb(174, 161, 161);   
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;;
     margin: auto;
-    border-radius: 20px;     
+    border-radius: 20px;   
+    width: 85%;  
 }
 
 .container h5 {
@@ -347,44 +348,15 @@ footer p:nth-child(2) {
     }
 }
 
-@media (max-width: 981px) {
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 12%;
-        right: -100%;
-        width: 270px;
-        height: 150px;
-        background: var(--main-color);
+@media (max-width: 863px) {
+    header {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all 0.5s ease;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .navbar a {
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all 0.5s ease;
-    }
-
-    .navbar a:hover {
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-
-    .navbar a.active {
-        color: var(--text-color);
-    }
-
-    .navbar.open {
-        right: 2%;
-        height: 150px;
+        margin-top: 40px;
     }
 }
 
@@ -395,6 +367,12 @@ footer p:nth-child(2) {
 
     .title h2 {
         width: 400px
+    }
+}
+
+@media (max-width: 525px) {
+    .title h2 {
+        font-size: 50px;
     }
 }
 
@@ -424,18 +402,5 @@ footer p:nth-child(2) {
     .main a {
         margin: 30px 10px;
     }
-
-    .navbar {
-        position: absolute;
-        top: 18%;
-        right: -100%;
-        width: 270px;
-        height: 150px;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all 0.5s ease;
-    }
+    
 }
