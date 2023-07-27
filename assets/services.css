@@ -46,6 +46,7 @@ header {
 
 .logo img {
     width: 125px;
+    border-radius: 50%;
 }
 
 .navbar {
@@ -194,6 +195,10 @@ hr {
     color: rgba(0, 0, 0, 0.645);
     height: 150px;    
     cursor: pointer;
+}
+
+.unid {
+    margin-top: 7px;
 }
 
 .box {
