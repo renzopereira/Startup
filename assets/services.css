@@ -380,12 +380,6 @@ footer p:nth-child(2) {
     }
 }
 
-@media (max-width: 422px) {
-    .logo img {
-        margin-left: -40px;
-    }
-}
-
 @media (max-width: 393px) {
     header {
         display: block;
