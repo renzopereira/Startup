@@ -422,6 +422,16 @@ footer p:nth-child(2) {
 
     .title h2 {
         width: 400px
+    } 
+
+    .about-text {
+        width: 80%;
+        display: block;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        margin: 0;
     }
 }
 
