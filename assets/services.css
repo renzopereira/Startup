@@ -110,14 +110,6 @@ span.material-symbols-outlined {
     font-size: 90px;
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: var(--text-color);
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-}
-
 button {
     background-color: var(--text-color);
     color: var(--bg-color);
