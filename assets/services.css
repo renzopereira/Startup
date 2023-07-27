@@ -54,7 +54,7 @@ header {
 }
 
 .navbar a {
-    color: var(--text-color);
+    color: var(--text2-color);
     font-size: 1.1rem;
     font-weight: 500;
     padding: 5px 0;
@@ -63,7 +63,9 @@ header {
 }
 
 .navbar a:hover {
-    color: var(--main-color);
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    border-radius: 20px;    
 }
 
 .navbar a.active {
