@@ -13,7 +13,8 @@
     --bg-color: #ffffff;
     --text-color: #3b117b;
     --main-color: #7545b6;
-    --text2-color: rgba(0, 0, 0, 0.739);    
+    --text2-color: rgba(0, 0, 0, 0.739);   
+    --secondbg-color: #fff400;    
 }
 
 body {
@@ -144,10 +145,11 @@ button:hover {
 hr {
     position: relative;
     width: 50%;
+    color: var(--secondbg-color);
 }
 
 .container {
-    background: rgb(174, 161, 161);   
+    background: var(--text-color);   
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;;
     margin: auto;
     border-radius: 20px;   
@@ -158,7 +160,7 @@ hr {
     text-align: center;
     padding: 15px;
     margin: auto;
-    color: var(--text2-color);
+    color: var(--bg-color);
 }
 
 .container h3 {
@@ -170,7 +172,7 @@ hr {
     text-align: center;
     padding: 15px;
     margin: auto;
-    color: var(--text2-color);
+    color: var(--bg-color);
 }
 
 .categoria {
@@ -206,7 +208,7 @@ hr {
     width: 250px;
     padding: auto;
     font-size: 12px;
-    background: whitesmoke;
+    background: var(--main-color) ;
     border : 1px transparent var(--main-color);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
@@ -216,6 +218,10 @@ hr {
     overflow: hidden;
     text-align: center;
     position: space-between;
+}
+
+.card h3 {
+    color: var(--secondbg-color);
 }
 
 .card i {
