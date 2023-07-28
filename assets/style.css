@@ -248,6 +248,14 @@ button:hover {
     text-align: center;
 }
 
+.card h2 {
+    color: var(--bg-color);    
+}
+
+.card h5 {
+    color: var(--bg-color);    
+}
+
 .card:hover {
     transition: all 0.3s ease;
     scale: 105%;
