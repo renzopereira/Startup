@@ -262,6 +262,10 @@ button:hover {
     cursor: pointer;
 }
 
+.unid {
+
+}   
+
 .box img {
     max-height: 280px;
     min-height: auto;
