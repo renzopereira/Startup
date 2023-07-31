@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 header {
@@ -43,6 +44,7 @@ header {
 
 .logo:hover {
     scale: 1.1;
+    transition: all 0.3s ease;
 }
 
 .logo img {
@@ -52,15 +54,16 @@ header {
 
 .navbar {
     display: flex;
+    width: 100%;
 }
 
 .navbar a {
     color: var(--text2-color);
     font-size: 1.1rem;
     font-weight: 500;
-    padding: 5px 0;
+    padding: 5px 5px;
     margin: 0px 30px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar a:hover {
