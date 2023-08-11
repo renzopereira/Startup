@@ -237,10 +237,14 @@ button:hover {
     height: 410px;
     width: 250px;
     padding: auto;
-    background: var(--main-color);
+    background: rgb(59,17,123);
+    background: linear-gradient(145deg, rgba(59,17,123,1) 44%, rgba(117,69,182,1) 100%);
     border : 1px solid var(--main-color);
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     margin-bottom: 20px;
     position: relative;
@@ -249,27 +253,54 @@ button:hover {
 }
 
 .card h2 {
-    color: var(--bg-color);    
+    color: var(--bg-color);  
+    margin: 10px;  
 }
 
 .card h5 {
     color: var(--bg-color);    
+    margin: 10px;  
 }
 
-.card:hover {
-    transition: all 0.3s ease;
-    scale: 105%;
-    cursor: pointer;
+.front, .back {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    color: var(--bg-color); 
+
 }
 
-.unid {
+.front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}  
 
-}   
+.back {
+    transform: rotateY(-180deg);
+    width: 85%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.back p {
+    font-size: 12px;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0);
+}
 
 .box img {
     max-height: 280px;
     min-height: auto;
-    height: 250px;
+    height: 260px;
     padding-top: 3px;
     border-radius: 50%;    
 }
