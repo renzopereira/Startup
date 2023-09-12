@@ -188,15 +188,17 @@ hr {
 }
 
 .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
     background: white;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.645);
     height: 150px;    
     cursor: pointer;
-}
-
-.unid {
-    margin-top: 7px;
 }
 
 .box {
