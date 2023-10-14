@@ -85,6 +85,20 @@ header {
     align-items: center;    
 } 
 
+.present {   
+    height: 100%;
+    width: 100%;
+}
+
+.present img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
 .main {
     display: flex;
     align-items: center;
